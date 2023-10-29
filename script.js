@@ -29,8 +29,12 @@ const getWeather = (city) => {
             document.body.style.backgroundImage = "url('sunny.jpg')";
            }
 
-           else {
+           else if (response.temp > 11 && response.temp < 25){
             document.body.style.backgroundImage = "url('cloudy.jpg')";
+           }
+
+           else {
+            document.body.style.backgroundImage = "url('winter.jpeg')";
            }
 
         })

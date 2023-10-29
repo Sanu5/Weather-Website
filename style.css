@@ -45,3 +45,30 @@
     box-shadow: 0 5px 15px #afe0f5;
 }
 
+@media screen and (max-width: 500px) {
+    
+    .name {
+        font-size: 38px;
+        block-size: auto;
+    }
+
+    #temp {
+        font-size: 60px;
+    }
+
+    .hum {
+        font-size: 10px;
+        
+    }
+
+    .gum {
+        font-size: 10px;
+        
+    }
+
+    .down {
+        font-size: 10px;
+        
+    }
+}
+
