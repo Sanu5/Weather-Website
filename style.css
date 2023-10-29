@@ -1,0 +1,49 @@
+
+
+.WeatherCity{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.name{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.hum {
+    text-align: left;
+}
+
+.tempe {
+    padding-bottom: 20px;
+}
+
+#temp {
+    font-size: 100px;
+    vertical-align: top;
+}
+
+.supe {
+    vertical-align: top;
+}
+
+
+.navbar {
+    margin-left: 700px;
+    margin-right: 700px;
+    background-blend-mode: multiply;
+    
+}
+
+
+.container {
+    padding-top: 90px;
+}
+
+.hover {
+    color: blue;
+    box-shadow: 0 5px 15px #afe0f5;
+}
+

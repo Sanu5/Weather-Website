@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="maindiv">
+
+        <div class="WeatherCity">
+            <h1 class="name">Weather for <span id="cityName"></span></h1>
+        </div>
+
+        <nav class="navbar background">
+            <div class="container-fluid justify-content-center">
+                <form class="d-flex" role="search">
+                    <input id="city" class="hover form-control me-3" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit" id="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <div class="container text-center">
+            <div class="row row-cols-2">
+                <div class="col tempe" style="text-align: right;">
+                    <h2><span id="temp"></span> <span class="supe">&#8451;</span></h2>
+                </div>
+                <div class="col ind1">
+                    <div class="row row-cols-2">
+                        <div class="p-0 hum">Humidity <span id="humidity"></span>%</div>
+                        <div class="p-0" style="text-align: left;">Sunrise <span id="sunrise"></span></div>
+                        <div class="p-0 hum">Wind Speed <span id="wind_speed"></span></div>
+                        <div class="p-0" style="text-align: left;">Sunset <span id="sunset"></span></div>
+                    </div>
+                </div>
+                <div class="col" style="text-align: right;">Feels Like <span id="feels_like"></span><span>&#8451;</span>
+                </div>
+                <div class="col" style="text-align: left;">
+                    <div class="col">Min Temp <span id="min_temp"></span><span>&#8451;</span></div>
+                    <div class="col">Max Temp <span id="max_temp"></span><span>&#8451;</span></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
