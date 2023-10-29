@@ -1,15 +1,13 @@
-
-
-.WeatherCity{
+.WeatherCity {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.name{
+.name {
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
-    
+
 }
 
 .hum {
@@ -32,7 +30,7 @@
 
 .navbar {
     background-blend-mode: color;
-    
+
 }
 
 
@@ -45,30 +43,41 @@
     box-shadow: 0 5px 15px #afe0f5;
 }
 
+.text {
+    font-size: 160%;
+}
+
 @media screen and (max-width: 500px) {
-    
+
     .name {
         font-size: 38px;
         block-size: auto;
+
     }
 
     #temp {
         font-size: 60px;
+        text-align: center;
     }
 
     .hum {
         font-size: 10px;
-        
+
     }
 
     .gum {
         font-size: 10px;
-        
+
     }
 
     .down {
         font-size: 10px;
-        
-    }
-}
+        text-align: left;
 
+    }
+    .text {
+        font-size: 110%;
+    }
+
+    
+}
