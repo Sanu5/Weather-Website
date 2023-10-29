@@ -31,9 +31,7 @@
 
 
 .navbar {
-    margin-left: 700px;
-    margin-right: 700px;
-    background-blend-mode: multiply;
+    background-blend-mode: color;
     
 }
 
